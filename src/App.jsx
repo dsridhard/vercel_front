@@ -5,7 +5,7 @@ function App() {
 
   useEffect(() => {
     // Replace this URL with your live Vercel backend URL!
-    const backendUrl = 'https://my-backend.vercel.app/api/hello'; 
+    const backendUrl = 'https://vercel-backend-delta-ten.vercel.app/api/hello'; 
     
     fetch(backendUrl)
       .then(response => response.json())
